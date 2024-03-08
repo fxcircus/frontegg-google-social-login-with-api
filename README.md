@@ -1,4 +1,4 @@
-# frontegg-google-social-login-with-api
+# Google Social Login with Frontegg APIs
 Implementation of [Google social Login](https://docs.frontegg.com/docs/google-login) with Frontegg APIs
 
 ## How to run
