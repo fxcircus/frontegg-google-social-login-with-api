@@ -21,4 +21,21 @@ const googleClientSecret = 'YOUR_GOOGLE_CLIENT_SECRET';
 ```
 
 3. Run `npm install` and then `npm start`
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:3000`. Authenticate with your Google account.
+
+### Sample response after successful exectution
+```
+Response from Google postlogin: {
+  email: '[YOUR_EMAIL]',
+  isNewUser: false,
+  mfaRequired: false,
+  accessToken: '[BEARER_TOKEN]',
+  tokenType: 'bearer',
+  refreshToken: '[REFRESH_TOKEN_VALUE]',
+  expiresIn: 86400,
+  expires: 'Fri, 08 Mar 2024 14:43:02 GMT',
+  userId: '[USER_ID]',
+  name: '[USER_NAME]',
+  tenantId: '[TENANT_ID}'
+}
+```
