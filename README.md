@@ -18,7 +18,6 @@ const fronteggClientId = 'YOUR_FRONT_CLIENT_ID';
 // Replace with your Google API credentials:
 const googleClientId = 'YOUR_GOOGLE_CLIENT_ID';
 const googleClientSecret = 'YOUR_GOOGLE_CLIENT_SECRET';
-const googleRedirectUri = `http://localhost:${port}/auth/google/callback`;
 ```
 
 3. Run `npm install` and then `npm start`
